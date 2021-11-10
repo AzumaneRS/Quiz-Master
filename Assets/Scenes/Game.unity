@@ -1729,7 +1729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f472838efc134084b82e1a20b784dfac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToCompleteQuestion: 30
+  timeToCompleteQuestion: 20
   timeToShowCorrectAnswer: 10
   loadNextQuestion: 0
   fillFraction: 0
