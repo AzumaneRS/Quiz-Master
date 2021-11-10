@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 4
   m_EditorClassIdentifier: 
   question: Why not? >:(
+  answers:
+  - Waeva
+  - Bcause
+  - Dunno
+  - '''nako'
+  correctAnswerIndex: 2
