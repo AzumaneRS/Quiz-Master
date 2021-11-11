@@ -9,7 +9,7 @@ public class Quiz : MonoBehaviour
 {
     [Header("Questions")]
     [SerializeField]TextMeshProUGUI questionText;
-    [SerializeField]QuestionsSO question;
+    QuestionsSO currentQuestion;
 
     [Header("Answers")]
     [SerializeField] GameObject[] answerButtons;
