@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 387444334}
   - component: {fileID: 387444333}
   - component: {fileID: 387444338}
-  - component: {fileID: 387444337}
+  - component: {fileID: 387444339}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -409,33 +409,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &387444337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387444332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7396d3b8a101d1343b0b919900685753, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questionText: {fileID: 322941272}
-  questions:
-  - {fileID: 11400000, guid: 1b01813540cbe364a8ad3ae51e8ccb89, type: 2}
-  - {fileID: 11400000, guid: 976b1eecfd5662d488fffae4ee7d4622, type: 2}
-  - {fileID: 11400000, guid: dfc8a59cf0cd8e64e9e747ff227177bf, type: 2}
-  - {fileID: 11400000, guid: d46a84827c6a3f546af476ca35a9c597, type: 2}
-  - {fileID: 11400000, guid: 2051a0d8ba382fe429e2de7dc60c530e, type: 2}
-  answerButtons:
-  - {fileID: 1688912578}
-  - {fileID: 1948030499}
-  - {fileID: 1753967881}
-  - {fileID: 1149507374}
-  defaultAnswerSprite: {fileID: 21300000, guid: 1f7f331ed405c8e44b6a25c08b535217, type: 3}
-  correctAnswerSprite: {fileID: 21300000, guid: 7b7e48e5d27536045a164ac8a777a309, type: 3}
-  timerImage: {fileID: 1734515556}
 --- !u!82 &387444338
 AudioSource:
   m_ObjectHideFlags: 0
@@ -532,6 +505,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &387444339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387444332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7396d3b8a101d1343b0b919900685753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 322941272}
+  questions:
+  - {fileID: 11400000, guid: 2051a0d8ba382fe429e2de7dc60c530e, type: 2}
+  - {fileID: 11400000, guid: d46a84827c6a3f546af476ca35a9c597, type: 2}
+  - {fileID: 11400000, guid: dfc8a59cf0cd8e64e9e747ff227177bf, type: 2}
+  - {fileID: 11400000, guid: 976b1eecfd5662d488fffae4ee7d4622, type: 2}
+  - {fileID: 11400000, guid: 1b01813540cbe364a8ad3ae51e8ccb89, type: 2}
+  answerButtons:
+  - {fileID: 1688912578}
+  - {fileID: 1948030499}
+  - {fileID: 1753967881}
+  - {fileID: 1149507374}
+  defaultAnswerSprite: {fileID: 21300000, guid: 1f7f331ed405c8e44b6a25c08b535217, type: 3}
+  correctAnswerSprite: {fileID: 21300000, guid: 7b7e48e5d27536045a164ac8a777a309, type: 3}
+  timerImage: {fileID: 1734515556}
+  scoreText: {fileID: 1201619005}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +639,7 @@ PrefabInstance:
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 387444337}
+      objectReference: {fileID: 387444339}
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1438,7 +1439,7 @@ PrefabInstance:
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 387444337}
+      objectReference: {fileID: 387444339}
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1769,7 +1770,7 @@ PrefabInstance:
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 387444337}
+      objectReference: {fileID: 387444339}
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1956,7 +1957,7 @@ PrefabInstance:
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 387444337}
+      objectReference: {fileID: 387444339}
     - target: {fileID: 3062238354238496964, guid: 9262aab523a00ec49b41413775b840f9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
